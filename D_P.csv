@@ -1,0 +1,16 @@
+D_Task,P_Task
+Sprint | Requirement Collection,
+Sprint | Issue Collection,
+Sprint | Feature Proof-of-Concept,Sprint | Requirement Collection
+Sprint | Feature Wireframe,Sprint | Issue Collection
+Sprint | Feature Wireframe,Sprint | Feature Proof-of-Concept
+Sprint | Database Architecture,Sprint | Requirement Collection
+Sprint | Back-End Creation,Sprint | Database Architecture
+Sprint | Front-End Creation,Sprint | Feature Wireframe
+Sprint | Staging Deployment,Sprint | Database Architecture
+Sprint | Staging Deployment,Sprint | Back-End Creation
+Sprint | Staging Deployment,Sprint | Front-End Creation
+Sprint | Integration Testing,Sprint | Front-End Creation
+Sprint | Production Deployment,Sprint | Staging Deployment
+Sprint | Production Deployment,Sprint | Integration Testing
+Sprint | Production Deployment,Sprint | Database Architecture
