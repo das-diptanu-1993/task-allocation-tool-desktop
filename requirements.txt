@@ -1,0 +1,7 @@
+cx_Freeze==8.3.0
+dash==3.0.4
+matplotlib==3.10.3
+numpy==2.2.6
+pandas==2.2.3
+plotly==6.1.1
+tkcalendar==1.6.1
