@@ -59,13 +59,13 @@ class __App__(Tk):
             font=FONT)
         self.l3.pack(padx=5, anchor=NW)
         today = date.today()
-        self.c3 = Calendar(self.f3, selectmode = 'day', 
+        self.c3 = Calendar(self.f3, font = FONT, selectmode = 'day', 
             year = today.year, month = today.month, day = today.day)
         self.c3.pack(padx=5, anchor=NW)
         self.s3 = Label(self.f3, text="")
         self.s3.pack(pady=5)
         self.b4 = Button(self, text="OPTIMIZE", font=FONT, 
-            command=self.execute_main, bg='blue', fg='yellow')
+            command=self.execute_main, bg='grey', fg='black')
         self.b4.pack(padx=5, side=TOP)
     def get_e1(self):
         return self.e1.get()
@@ -128,9 +128,9 @@ class __App__(Tk):
         __Main__(t_r_map, d_p_map, process_start)
 
 if __name__ == '__main__':
-    RESOLUTION = [800, 600]
+    RESOLUTION = [1366, 768]
     FONT_BIG = ("Arial Rounded MT Bold", 36)
-    FONT = ("Arial Rounded MT Bold", 12)
+    FONT = ("Arial Rounded MT Bold", 18)
     window = __App__(RESOLUTION, FONT)
     window.mainloop()
 
